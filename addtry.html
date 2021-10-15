@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>add details</title>
+ 
+</head>
+<body>
+
+<div class="form">
+
+          <form action="addtry.php" method="post" enctype="multipart/form-data">
+                    <h1>Add New product</h1>
+         
+ <div class="field-wrap">
+            <label>
+              Farmer Name<span class="req">*</span>
+            </label>
+            <input type="text" name = "farmer_name" required autocomplete="off"/>
+          </div>
+
+           <div class="field-wrap">
+            <label>
+              Contact No<span class="req">*</span>
+            </label>
+            <input type="text" name = "contact_no" required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Product Name<span class="req">*</span>
+            </label>
+            <input type="text" name = "product_name" required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Quantity<span class="req">*</span>
+            </label>
+            <input type="text" name = "product_quantity" required autocomplete="off"/>
+          </div> 
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Price<span class="req">*</span>
+            </label>
+            <input type="text" name = "product_price" pattern="[0-9]{1,}" required autocomplete="off"/>
+          </div>
+          
+          
+          
+         <div class="field-wrap">
+            <label>
+              Product Description<span class="req">*</span>
+            </label>
+            <input type="text" name = "product_desc" required autocomplete="off"></textarea>
+          </div>
+           <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+        
+</body>
+</html>
